@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planets Data</title>
+  <style>
+     body{
+        font-family: Arial, sans-serif;
+        background:#f4f6f9;
+        padding:30px;
+    }
+
+    h1{
+        text-align:center;
+        color:#2c3e50;
+    }
+
+    table{
+        width:100%;
+        border-collapse:collapse;
+        background:white;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    caption{
+        font-size:1.5rem;
+        font-weight:bold;
+        padding:15px;
+        color:#34495e;
+    }
+
+    th, td{
+        border:1px solid #ccc;
+        padding:12px;
+        text-align:center;
+    }
+
+    thead{
+        background:#2c3e50;
+        color:white;
+    }
+
+    tbody tr:nth-child(even){
+        background:#f8f9fa;
+    }
+
+    tbody tr:hover{
+        background:#eaf2ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Planet's Data</h1>
+  <table>
+    <colgroup>
+    <col span="4" />
+    <col class="column-background" />
+    <col class="column-fixed-width" />
+    <col class="column-background" />
+    <col class="column-background-border" />
+    <col span="4" class="column-fixed-width" />
+  </colgroup>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <th>Name</th>
+    <th>Mass(10²⁴ kg)</th>
+    <th>Diameter (km)</th>
+    <th>Density (g/cm³)</th>
+    <th>Gravity (m/s²)</th>
+    <th>Length of Day (hours)</th>
+    <th>Distance from Sun (10⁶ km)</th>
+    <th>Mean Temperature (°C)</th>
+    <th>Number of Moons</th>
+  </tr>
+  <tr>
+    <th rowspan="4" colspan="2">Terrestial planets</th>
+    <td>Mercury</td>
+    <td>0.330</td>
+    <td>4,879</td>
+    <td>5427</td>
+    <td>3.7</td>
+    <td>4222.6</td>
+    <td>57.9</td>
+    <td>167</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Venus</td>
+    <td>4.87</td>
+    <td>12,104</td>
+    <td>5243</td>
+    <td>8.9</td>
+    <td>2802.0</td>
+    <td>108.2</td>
+    <td>464</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Earth</td>
+    <td>5.97</td>
+    <td>12,756</td>
+    <td>5514</td>
+    <td>9.8</td>
+    <td>24.0</td>
+    <td>149.6</td>
+    <td>15</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Mars</td>
+    <td>0.642</td>
+    <td>6,779</td>
+    <td>3933</td>
+    <td>3.7</td>
+    <td>24.6</td>
+    <td>227.9</td>
+    <td>-65</td>
+    <td>67</td>
+  </tr>
+    <td colspan="2">&nbsp;</td>
+   <tr>
+    <th rowspan="4"s>Jovian planets</th>
+    <th rowspan="2"> Gas giants</th>
+    <td>Jupiter</td>
+    <td>1898</td>
+    <td>142,984</td>
+    <td>1326</td>
+    <td>24.8</td>
+    <td>9.9</td>
+    <td>778.6</td>
+    <td>-110</td>
+    <td>67</td>
+  </tr>
+  <tr>
+    <td>Saturn</td>
+    <td>568</td>
+    <td>120,536</td>
+    <td>687</td>
+    <td>9.0</td>
+    <td>10.7</td>
+    <td>1433.5</td>
+    <td>-140</td>
+    <td>62</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Ice giants</th>
+    <td>Uranus</td>
+    <td>86.8</td>
+    <td>51,118</td>
+    <td>1271</td>
+    <td>8.7</td>
+    <td>17.2</td>
+    <td>2872.5</td>
+    <td>-195</td>
+    <td>27</td>
+  </tr>
+   <tr>
+    <td>Neptune</td>
+    <td>102</td>
+    <td>49,528</td>
+    <td>1638</td>
+    <td>11.0</td>
+    <td>16.1</td>
+    <td>4495.1</td>
+    <td>-200</td>
+    <td>14</td>
+  </tr>
+    <td colspan="2">&nbsp;</td>
+   <tr>
+    <th colspan="2">Dwarf planets</th>
+    <td>Pluto</td>
+    <td>0.0146</td>
+    <td>2,370</td>
+    <td>2095</td>
+    <td>0.7</td>
+    <td>153.3</td>
+    <td>5906.4</td>
+    <td>-225</td>
+    <td>5</td>
+  </tr>
+    <td colspan="2">&nbsp;</td>
+  </table>
+</body>
